@@ -12,6 +12,7 @@ import LoveStory from "./pages/LoveStory"
 import Gallery from "./pages/Gallery"
 import Messages from "./pages/Messages"
 import Surprise from "./pages/Surprise"
+import Developer from "./pages/Developer"
 import NotFound from "./pages/NotFound"
 
 const App = () => (
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/messages" element={<Messages />} />
           <Route path="/surprise" element={<Surprise />} />
+          <Route path="/developer" element={<Developer />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

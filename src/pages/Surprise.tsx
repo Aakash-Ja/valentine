@@ -62,7 +62,7 @@ export default function Surprise() {
             animate={{ backgroundPosition: ['0%', '100%', '0%'] }}
             transition={{ duration: 3, repeat: Infinity }}
           >
-            ✨ Special Surprise ✨
+            <span>✨</span> Special Surprise <span>✨</span>
           </motion.span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">

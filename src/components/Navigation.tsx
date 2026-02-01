@@ -10,6 +10,7 @@ const navItems = [
   { path: '/gallery', label: 'Gallery' },
   { path: '/messages', label: 'Messages' },
   { path: '/surprise', label: 'Surprise' },
+  { path: '/developer', label: 'Developer' },
 ]
 
 export function Navigation() {

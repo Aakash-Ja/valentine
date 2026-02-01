@@ -56,7 +56,7 @@ export default function GreetingCard() {
           className="text-center mb-20"
         >
           <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-rose-600 to-red-600 bg-clip-text text-transparent mb-4">
-            💌 Valentine's Greeting Cards
+            <span>💌</span> Valentine's Greeting Cards
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Click on any card to reveal a heartfelt message. Share them with someone special!

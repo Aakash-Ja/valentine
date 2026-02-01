@@ -55,7 +55,7 @@ export default function Gallery() {
           className="text-center mb-20"
         >
           <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-rose-600 to-red-600 bg-clip-text text-transparent mb-4">
-            🖼️ Our Memories
+            <span>🖼️</span> Our Memories
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Cherished moments that define our beautiful journey together
