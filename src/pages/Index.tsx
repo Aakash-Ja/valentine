@@ -27,7 +27,7 @@ export default function Index() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: 'easeOut' },
+      transition: { duration: 0.6, type: 'tween' as const },
     },
   }
 
@@ -69,7 +69,7 @@ export default function Index() {
         className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mt-16 w-full px-4"
       >
         {features.map((feature, idx) => (
-          <motion.div key={feature.path} variants={itemVariants}>
+          <motion.div key={idx} variants={itemVariants}>
             <Link
               to={feature.path}
               className="group relative overflow-hidden p-8 rounded-2xl border border-pink-300/40 dark:border-pink-600/40 hover:border-pink-500/60 dark:hover:border-pink-500/60 bg-gradient-to-br from-pink-100/40 to-rose-100/30 dark:from-pink-950/30 dark:to-rose-950/20 hover:bg-pink-200/30 dark:hover:bg-pink-900/30 transition-all duration-300 h-full flex flex-col justify-between backdrop-blur-sm"
@@ -81,7 +81,7 @@ export default function Index() {
                 <span className="text-5xl mb-4 inline-block transform group-hover:scale-110 transition-transform duration-300">
                   {feature.icon}
                 </span>
-                <h3 className="text-2xl font-bold mb-3 flex items-center gap-2 group-hover:text-pink-700 dark:group-hover:text-pink-400 transition-colors">
+                <h3 className="text-2xl font-bold mb-3 flex items-center gap-2 text-gray-900 dark:text-pink-300 group-hover:text-pink-700 dark:group-hover:text-pink-400 transition-colors">
                   {feature.title}
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
                 </h3>
