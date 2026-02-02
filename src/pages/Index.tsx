@@ -81,7 +81,7 @@ export default function Index() {
                 <span className="text-5xl mb-4 inline-block transform group-hover:scale-110 transition-transform duration-300">
                   {feature.icon}
                 </span>
-                <h3 className="text-2xl font-bold mb-3 flex items-center gap-2 text-gray-900 dark:text-pink-300 group-hover:text-pink-700 dark:group-hover:text-pink-400 transition-colors">
+                <h3 className="text-2xl font-bold mb-3 flex items-center gap-2 text-pink-700 text-gray-900 dark:text-pink-300 group-hover:text-pink-700 dark:group-hover:text-pink-400 transition-colors">
                   {feature.title}
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
                 </h3>
